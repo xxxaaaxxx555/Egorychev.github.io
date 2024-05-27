@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-info">
+        <div class="container">
+            <div class="information">
+                <nav class="navigation">
+                    <div class="levoe">
+                        <a href="index.html">На главную</a>
+                        <a href="#About">Обо мне</a>
+                        <a href="skills.html">Навыки</a>
+                        <a href="portfolio.html">Портфолио</a>
+                    </div>
+                    <div class="pravoe">
+                        <a href="form.html">Авторизация</a>
+                    </div>
+                </nav>
+                <div class="form">
+
+                <main id="main">
+                    <h1>Регистрация</h1>
+                    <form action="//httpbin.org/post" method="post">
+                        <fieldset>
+                            <legend>Введите ваши данные</legend>
+                            <p>
+                                <lable>Имя <input type="text" name="text-field" placeholder="Иван" required></lable>
+                            </p>
+                            <p>
+                                <lable>Фамилия <input type="text" name="text-field" placeholder="Иванов" required></lable>
+                            </p>
+                            <p>
+                                <lable>Отчество* <input type="text" name="text-field" placeholder="Иванович" required>
+                                </lable>
+                            </p>
+                            <p>
+                                <label>Почта <input type="email" name="email" placeholder="ivanov@mail.ru" required></label>
+                            </p>
+                            <p>
+                                <label>Телефон <input type="tel" name="tel" placeholder="+7 (777) 777 77-77"
+                                        required></label>
+                            </p>
+                            <p>
+                                <label>Дата рождения <input type="date" name="date"></label>
+                            </p>
+                        </fieldset>
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </main>
+</body>
+
+</html>
