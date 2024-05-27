@@ -1,0 +1,146 @@
+h1 { 
+    font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h2{
+font-family: sans-serif;
+font-size: 26px;
+font-weight: 600;
+margin: 20px 0px 10px 0px;
+}
+
+a {
+font-family: sans-serif;
+font-size: 26px;
+font-weight: 600;
+margin: 20px 0px 10px 0px;
+}
+
+th{
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+background-color: black;
+color: white;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 20px 0px 10px 0px;
+}
+
+.main-info a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(29, 101, 235);
+}
+
+th {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(84, 134, 255);
+    color: white;
+    padding: 5px
+}
+
+td {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    padding: 5px
+}
+
+.main-info {
+    background-image: url("images/fon_fon.jpg");
+    background-size: cover;
+    background-color: black;
+    color: white;
+  }
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 10px 30px 30px 30px;
+}
+
+.person-image {
+    text-align: center;
+}
+
+.knopka {
+    margin-top: 50px;
+}
+
+footer {
+    background-image: url("images/fon_fon.jpg");
+    background-size: cover;
+    color: white;
+    text-align: right;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a{
+    margin-right: 20px;
+}
+
+.person-image {
+    margin-right: 30px;
+}
+
+table {
+    margin: 10px
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
